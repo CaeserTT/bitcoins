@@ -1,2 +1,30 @@
 # bitcoins
-ebooks
+#####Char 1
+Bitcoin is a collection of concepts and technologies that form the basis of a digital money ecosystem.Units of currency called bitcoins are used to store and transmit value among participants in the bitcoin network. Bitcoin users communicate with each other using the bitcoin protocol primarily via the Internet, although other transport networks can also be used. The bitcoin protocol stack, available as open source software, can be run on a wide range of computing devices, including laptops and smartphones, making the technology easily accessible.
+比特币是由一系列概念和技术作为基础构建的数字货币生态系统。狭义的“比特币”代表系统中的货币单位，用于储存和传输价值。用户主要通过互联网使用比特币系统，当然其他网络也可以使用。比特币协议以各种开源软件的形式实现，这些软件可以在笔记本电脑、智能手机等多种设备上运行，让用户方便地接入比特币系统。
+
+Users can transfer bitcoins over the network to do just about anything that can be done with conventional currencies, including buy and sell goods, send money to people or organizations, or extend credit. Bitcoins can be purchased, sold, and exchanged for other currencies at specialized currency exchanges. Bitcoin in a sense is the perfect form of money for the Internet because it is fast, secure, and borderless.
+比特币可以做传统货币能做的所有事，例如买卖商品、给个人或组织汇款、贷款。用户可以在专门的交易所里买卖比特币或兑换其他货币。在一定意义上，比特币才是互联网货币的完美形态。因为它具有快捷、安全、无国界的特性。
+
+Unlike traditional currencies, bitcoins are entirely virtual. There are no physical coins or even digital coins per se. The coins are implied in transactions that transfer value from sender to recipient. Users of bitcoin own keys that allow them to prove ownership of transactions in the bitcoin network, unlocking the value to spend it and transfer it to a new recipient. Those keys are often stored in a digital wallet on each user’s computer. Possession of the key that unlocks a transaction is the only prerequisite to spending bitcoins, putting the control entirely in the hands of each user.
+不同于传统货币，比特币是完全虚拟的。它不但没有实体，本质上也没有一种虚拟物品代表比特币。比特币隐含在收发币的转账记录中。用户只要有证明其控制权的密钥，用密钥解锁，就可以发送比特币。这些密钥通常存储在计算机的数字钱包里。拥有密钥是使用比特币的唯一条件，这让控制权完全掌握在每个人手中。
+
+Bitcoin is a distributed, peer-to-peer system. As such there is no “central” server or point of control. Bitcoins are created through a process called “mining,” which involves competing to find solutions to a mathematical problem while processing bitcoin transactions. Any participant in the bitcoin network (i.e., anyone using a device running the full bitcoin protocol stack) may operate as a miner, using their computer’s processing power to verify and record transactions. Every 10 minutes on average, someone is able to validate the transactions of the past 10 minutes and is rewarded with brand new bitcoins. Essentially, bitcoin mining decentralizes the currency-issuance and clearing functions of a central bankx and replaces the need for any central bank with this global competition.
+比特币是一个分布式的点对点网络系统。因此没有“中央”服务器，也没有中央发行机构。比特币是通过“挖矿”产生的，挖矿就是验证比特币交易的同时参与竞赛来解决一个数学问题。任何参与者（比如运行一个完整协议栈的人）都可以做矿工，用他们的电脑算力来验证和记录交易。平均每10分钟就有人能验证过去这10分钟发生的交易，他将会获得新币作为工作回报。本质上，挖矿把央行的货币发行和结算功能进行分布式，用全球化的算力竞争来取代对中央发行机构的需求
+
+The bitcoin protocol includes built-in algorithms that regulate the mining function across the network. The difficulty of the processing task that miners must perform to successfully record a block of transactions for the bitcoin network is adjusted dynamically so that, on average, someone succeeds every 10 minutes regardless of how many miners (and CPUs) are working on the task at any moment. The protocol also halves the rate at which new bitcoins are created every four years, and limits the total number of bitcoins that will be created to a fixed total of 21 million coins. The result is that the number of bitcoins in circulation closely follows an easily predictable curve that reaches 21 million by the year 2140. Due to bitcoin’s diminishing rate of issuance, over the long term, the bitcoin currency is deflationary. Furthermore, bitcoin cannot be inflated by “printing” new money above and beyond the expected issuance rate.
+比特币系统包含调节挖矿难度的协议。挖矿——在比特币网络中成功写入一个区块交易——的难度是动态调整的，保证不管有多少矿工（多少CPU）挖矿，平均每10分钟只有一个矿工成功。比特币协议还规定，每四年新币的开采量减半，同时限制比特币的最终开采总量为2,100万枚。这样，流通中的比特币数量非常接近一条曲线，并将在2140年比特币将达到2,100万枚。由于比特币的开采速度随时间递减，从长期来看，比特币是一种通货紧缩货币。此外，不能通过“印刷”新比特币来实现“通货膨胀”
+Behind the scenes, bitcoin is also the name of the protocol, a network, and a distributed computing innovation. The bitcoin currency is really only the first application of this invention. As a developer, I see bitcoin as akin to the Internet of money, a network for propagating value and securing the ownership of digital assets via distributed compu‐ tation. There’s a lot more to bitcoin than first meets the eye.
+比特币是一种协议、一种网络、一种分布式计算创新的代名词。比特币是这种创新的首次实际应用。作为一个开发者，我看比特币之于货币就像看到当年的互联网，一个通过分布式计算来传播价值和保障数字资产所有权的网络。比起初识比特币，这里将知无不言。
+
+In this chapter we’ll get started by explaining some of the main concepts and terms, getting the necessary software, and using bitcoin for simple transactions. In following chapters we’ll start unwrapping the layers of technology that make bitcoin possible and examine the inner workings of the bitcoin network and protocol.
+在本章中，我们从一些主要概念和术语入手，告诉你如何获取软件并使用比特币进行简单的交易。接下来的章节，我们会逐步讲解比特币背后的技术细节，分析比特币网络和比特币协议的内部运行机制
+#####Digital Currencies Before Bitcoin
+比特币诞生之前的数字货币
+The emergence of viable digital money is closely linked to developments in cryptography. This is not surprising when one considers the fundamental challenges involved with using bits to represent value that can be exchanged for goods and services. Two basic questions for anyone accepting digital money are:
+切实可行的数字货币的出现是与密码学发展息息相关的。基本的挑战在于，当一个人考虑到用比特来代表可以兑换商品和服务的价值时，接受数字货币也就不足为奇。任何接受数字货币的人都面临的两个基本问题是：
+1.Can I trust the money is authentic and not counterfeit?
+2.Can I be sure that no one else can claim that this money belongs to them and not me? (Aka the “double-spend” problem.)
+我能相信这钱是真实可信的，而不是伪造的吗？
+我能确定没人说这笔钱是他们的，而不是我的吗？（又名“双重支付”问题）
+Issuers of paper money are constantly battling the counterfeiting problem by using increasingly sophisticated papers and printing technology. Physical money addresses the double-spend issue easily because the same paper note cannot be in two places at once. Of course, conventional money is also often stored and transmitted digitally. In these cases, the counterfeiting and double-spend issues are handled by clearing all elec‐
